@@ -18,11 +18,11 @@ export default class RouterDefine extends Component {
             <Switch>
             <div className="">
                 <Route exact path="/" component={KoranOnline} />
-                <Route path="/artikelsatu" component={ArtikelSatu} />
-                <Route path="/artikeldua" component={ArtikelDua} />
-                <Route path="/artikeltiga" component={ArtikelTiga} />
-                <Route path="/berita" component={BeriTa} />
-                <Route path="/beritautama" component={BeritaUtama} />
+                <Route exact path="/artikelsatu" component={ArtikelSatu} />
+                <Route exact path="/artikeldua" component={ArtikelDua} />
+                <Route exact path="/artikeltiga" component={ArtikelTiga} />
+                <Route exact path="/berita" component={BeriTa} />
+                <Route exact path="/beritautama" component={BeritaUtama} />
             </div>
             </Switch>
         </Router>
