@@ -14,7 +14,7 @@ class HeaDer extends Component {
         const {HeaDer1,HeaDer2,HeaDer3,HeaDer4}=this.props;        
         return (
             <div className="">
-                <div className="row">
+                <div className="">
                     <div className="col-md-12 col-xs-12 logo">   
                         <a className="navbar-brand linkcolor"><img src={logo} width="100" className="atas" alt="..."></img></a>
                     </div> 
