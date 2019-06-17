@@ -6,6 +6,7 @@ import Popper from 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './App.css';
 import logo from './img/Koranonline_logo2.png';
+import {Link} from 'react-router-dom';
 
 
 class HeaDer extends Component {   
@@ -19,19 +20,19 @@ class HeaDer extends Component {
                     </div> 
                     <div className="col-md-12 col-xs-12 menu">  
                         <a className="nav-item tab">
-                            <a className="" href="/berita?category=music">{HeaDer1}<span className="sr-only">(current)</span></a>
+                            <Link to="/berita?category=music">{HeaDer1}</Link>
                         </a>
                         &nbsp;
                         <a className="nav-item tab">
-                            <a className="" href="/berita?category=sport">{HeaDer2}</a>
+                            <Link to="/berita?category=sport">{HeaDer2}</Link>
                         </a>
                         &nbsp;
                         <a className="nav-item tab">
-                            <a className="" href="/berita?category=travel">{HeaDer3}</a>
+                            <Link to="/berita?category=travel">{HeaDer3}</Link>
                         </a>
                         &nbsp;
                         <a className="nav-item tab">
-                            <a className="" href="/berita?category=food">{HeaDer4}</a>
+                            <Link to="/berita?category=food">{HeaDer4}</Link>
                         </a> 
                     </div>  
                 </div>
